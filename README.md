@@ -1,7 +1,6 @@
-## Git and GitHub Course
+*## Git and GitHub Course*
 
 *Задание Lite*
-
 
 1. Создать репозиторий.
 2. Клонировать.
