@@ -1,4 +1,4 @@
-## Прочти меня
+## Git and GitHub Course
 
 Задание Lite
 
