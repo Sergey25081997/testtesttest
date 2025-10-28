@@ -1,6 +1,6 @@
 ## Git and GitHub Course
 
-Задание Lite
+*Задание Lite*
 
 
 1. Создать репозиторий.
