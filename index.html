@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная страница</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+        .header {
+            text-align: center;
+            background: #f4f4f4;
+            padding: 16px 0;
+        }
+        .main-block {
+            background: #eef;
+            margin-top: 20px;
+            padding: 24px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        @media (max-width: 680px) {
+            .container {
+                max-width: 100%;
+                padding: 8px;
+            }
+            .main-block {
+                padding: 14px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Добро пожаловать!</h1>
+        </div>
+        <div class="main-block">
+            <p>
+                Все элементы теперь корректно выравниваются.<br>
+                Страница адаптирована для мобильных устройств!
+            </p>
+        </div>
+    </div>
+</body>
+</html>
